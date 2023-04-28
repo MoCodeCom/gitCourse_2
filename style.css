@@ -1,0 +1,90 @@
+body{
+
+}
+
+/*--------------------nav bar ------------------------*/
+#nav_bar{
+    display: inline-flex;
+    margin-left: 10px;
+    width: 100%;
+}
+
+#nav_bar li{
+    margin-left: 40px;
+    cursor:pointer;
+    direction: unset;
+    list-style-type: none;
+}
+
+#nav_bar li:hover{
+    color: aliceblue;
+    background-color: blueviolet;
+}
+
+
+/*--------------------main----------------------------*/
+#main_content div{
+    display: flex;
+    position: absolute;
+    background-color: blueviolet;
+    height: 1000px;
+    width: 90%;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#main_content div div{
+    position: unset;
+    background-color: black;
+    margin: 20px;
+    height: 300px;
+}
+
+/*---------------------page 1----------------------*/
+#page1_content{
+    display:none;
+    margin: 20px;
+}
+
+#page1_content div{
+    display: flex;
+    /*position: absolute;*/
+    background-color: rgb(136, 136, 136);
+    height: 1000px;
+    width: 90%;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#page1_content div div{
+    position: unset;
+    background-color: rgb(106, 78, 78);
+    margin: 20px;
+    height: 300px;
+}
+
+/*--------------------page 2-----------------------*/
+#page2_content{
+    display:none;
+}
+
+#page2_content div{
+    display: flex;
+    /*position: absolute;*/
+    background-color: rgb(112, 148, 104);
+    height: 1000px;
+    width: 90%;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#page2_content div div{
+    position: unset;
+    background-color: rgb(71, 109, 61);
+    margin: 20px;
+    height: 300px;
+}
+
